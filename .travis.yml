@@ -1,0 +1,13 @@
+---
+sudo: required
+
+services:
+  - docker
+
+branches:
+  only:
+    - dev
+    - master
+
+before_script:
+- echo "Starting"
